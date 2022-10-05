@@ -263,5 +263,5 @@ for epoch in range(500):
     if ((epoch + 1) % model_save_epoch == 0):
         mkdir(model_save_path)
         save_index += 1
-        torch.save(LDCNet.state_dict(), os.path.join(model_save_path,
+        torch.save(model.state_dict(), os.path.join(model_save_path,
                                                       "LDCNet-{}.tar".format(save_index))) 
