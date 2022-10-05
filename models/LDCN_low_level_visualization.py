@@ -28,6 +28,7 @@ class LDCNet_visualize(nn.Module):
 
 
 def conv_block(index, in_channels, out_channels, K_SIZE=3, stride=1, padding=1, momentum=0.1, pooling=True):
+    # Reference: Regularized fine-grained meta face anti-spoofing (AAAI'20)
     if pooling:
         conv = nn.Sequential(
             OrderedDict([
