@@ -1,7 +1,14 @@
 # LDCNet
 ### Learnable Descriptive Convolutional Network for Face Anti-Spoofing (BMVC'22)
 
-![Screenshot](demo.png)
+### Feature maps extracted by LDC 
+![Screenshot](figure/visualize_low_level.png)
+
+### Learnable Descriptive Convolution
+![Screenshot](figure/LDC_illustration.png)
+
+### Network Architecture
+![Screenshot](figure/LDCNet.png)
 
 ### Installation
 ```
