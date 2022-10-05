@@ -11,18 +11,14 @@ dataset = 'Oulu'
 live_path = '/shared/domain-generalization/' + dataset + '_images_live.npy'
 spoof_path ='/shared/domain-generalization/' + dataset + '_images_spoof.npy'
 
-def NormalizeData_torch(data):
-    return (data - torch.min(data)) / (torch.max(data) - torch.min(data))
 
 def Find_Optimal_Cutoff(TPR, FPR, threshold):
-    # y = TPR - FPR
     y = TPR + (1 - FPR)
-    # print(y)
     Youden_index = np.argmax(y)  # Only the first occurrence is returned.
     optimal_threshold = threshold[Youden_index]
     point = [FPR[Youden_index], TPR[Youden_index]]
     return optimal_threshold, point
-
+    
 
 def NormalizeData(data):
     return (data - np.min(data)) / (np.max(data) - np.min(data))
@@ -54,9 +50,6 @@ for epoch in range(1, 500):
     model.eval()
 
     score_list = []
-    score_list_live = []
-    score_list_spoof = []
-    Total_score_list_cs = []
     label_list = []
     TP = 0.0000001
     TN = 0.0000001
