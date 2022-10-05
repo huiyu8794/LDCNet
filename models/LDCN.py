@@ -13,6 +13,10 @@ from collections import OrderedDict
 import torchvision.models as models
 from models.Learnable_Res18 import resnet18
 
+'''
+Reference: `Single-side domain generalization for face anti-spoofing` (CVPR'20)
+- https://arxiv.org/abs/2004.14043
+'''
 
 def l2_norm(input, axis=1):
     norm = torch.norm(input, 2, axis, True)
