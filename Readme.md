@@ -3,10 +3,17 @@
 
 ![Screenshot](demo.png)
 
-To install the requirements use:
-`pip3 install -r requirements.txt`
+### Installation
+```
+grad_cam==1.3.5
+matplotlib==3.5.2
+numpy==1.22.3
+scikit_learn==1.1.2
+torch==1.12.0
+torchvision==0.13.0
+```
 
-
+### Training
 Step 1: execute `Amap_train.py` to get pretrained model for producing activation map 
 
 Step 2: execute `train.py` to train LDCNet
