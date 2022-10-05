@@ -1,16 +1,17 @@
 # LDCNet
 ### Learnable Descriptive Convolutional Network for Face Anti-Spoofing (BMVC'22)
 
-### Feature maps extracted by LDC 
+## Feature maps extracted by LDC 
 ![Screenshot](figure/visualize_low_level.png)
+Generate by `Low_level_features_visualization.py` 
 
-### Learnable Descriptive Convolution
+## Learnable Descriptive Convolution
 ![Screenshot](figure/LDC_illustration.png)
 
-### Network Architecture
+## Network Architecture
 ![Screenshot](figure/LDCNet.png)
 
-### Installation
+## Requirements
 ```
 grad_cam==1.3.5
 matplotlib==3.5.2
@@ -20,7 +21,7 @@ torch==1.12.0
 torchvision==0.13.0
 ```
 
-### Training
+## Training
 Step 1: execute `Amap_train.py` to get pretrained model for producing activation map 
 
 Step 2: execute `train.py` to train LDCNet
