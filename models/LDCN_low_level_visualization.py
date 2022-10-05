@@ -278,9 +278,4 @@ class FeatEmbedder(nn.Module):
                            params['fc.bias'])
         return out
 
-    def cloned_state_dict(self):
-        cloned_state_dict = {
-            key: val.clone()
-            for key, val in self.state_dict().items()
-        }
-        return cloned_state_dict
+ 
