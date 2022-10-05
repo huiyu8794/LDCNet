@@ -1,6 +1,8 @@
 # LDCNet
 ### Learnable Descriptive Convolutional Network for Face Anti-Spoofing (BMVC'22)
 
+![Screenshot](demo.png)
+
 To install the requirements use:
 `pip3 install -r requirements.txt`
 
