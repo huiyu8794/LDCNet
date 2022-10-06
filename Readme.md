@@ -45,3 +45,16 @@ run `test.py`
 ![Screenshot](low_level_visualize/0005_featmap.png)
 ![Screenshot](low_level_visualize/0006_image_replay.png)
 ![Screenshot](low_level_visualize/0006_featmap.png)
+
+## Citation
+
+If you use the LDC, please cite the paper:
+
+```
+@inproceedings{huang2022learnable,
+  title={Learnable Descriptive Convolutional Network for Face Anti-Spoofing},
+  author={Huang, Pei-Kai and Ni, Hui-Yu and Ni, Yan-Qin and Hsu, Chiou-Ting},
+  booktitle={BMVC},
+  year={2022}
+}
+```
