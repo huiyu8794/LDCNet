@@ -9,6 +9,14 @@ import torchvision.transforms as T
 import matplotlib.pyplot as plt
 from loss.hard_triplet_loss import HardTripletLoss
 
+'''
+Reference 
+Gradcam: https://github.com/jacobgil/pytorch-grad-cam
+    
+Regularized Fine-Grained Meta Face Anti-Spoofing (AAAI'20)
+- https://github.com/rshaojimmy/RFMetaFAS
+'''
+
 device_id = 'cuda:0'
 batch_size = 5
 log_step = 50
@@ -105,7 +113,6 @@ def get_data_loader(data_path="", amap_path="", data_path2="", data_type="live",
 
 
 def get_inf_iterator(data_loader):
-    # Reference: Regularized Fine-Grained Meta Face Anti-Spoofing (AAAI'20)
     while True:
         for images, live_map, spoof_map, live_spoof_labels, material_label in data_loader:
             yield (images, live_map, spoof_map, live_spoof_labels, material_label)
