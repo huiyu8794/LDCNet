@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-"""Most of the code are copied from `Single-Side Domain Generalization for Face Anti-Spoofing` (CVPR'20)
+"""Reference: `Single-Side Domain Generalization for Face Anti-Spoofing` (CVPR'20)
    - https://github.com/taylover-pei/SSDG-CVPR2020/blob/master/loss/hard_triplet_loss.py
 """
 
