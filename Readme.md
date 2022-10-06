@@ -27,3 +27,21 @@ Step 1: execute `Amap_train.py` to get pretrained model for producing activation
 Step 2: execute `train.py` to train LDCNet
 
 Step 3: execute `test.py`
+
+
+## More visualization: Feature maps extracted by LDC
+### Live images:
+![Screenshot](low_level_visualize/0001_image_live.png)
+![Screenshot](low_level_visualize/0001_featmap.png)
+![Screenshot](low_level_visualize/0002_image_live.png)
+![Screenshot](low_level_visualize/0002_featmap.png)
+### Print images:
+![Screenshot](low_level_visualize/0003_image_print.png)
+![Screenshot](low_level_visualize/0003_featmap.png)
+![Screenshot](low_level_visualize/0004_image_print.png)
+![Screenshot](low_level_visualize/0004_featmap.png)
+### Replay images:
+![Screenshot](low_level_visualize/0005_image_replay.png)
+![Screenshot](low_level_visualize/0005_featmap.png)
+![Screenshot](low_level_visualize/0006_image_replay.png)
+![Screenshot](low_level_visualize/0006_featmap.png)
