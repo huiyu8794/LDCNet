@@ -5,6 +5,10 @@ from collections import OrderedDict
 import torchvision.models as models
 from torchvision.models.resnet import ResNet, BasicBlock
 
+'''
+Reference: `Regularized Fine-Grained Meta Face Anti-Spoofing` (AAAI'20)
+- https://github.com/rshaojimmy/RFMetaFAS/blob/master/models/DGFANet.py
+'''
 
 class LDCNet_visualize(nn.Module):
     def __init__(self, ):
