@@ -22,12 +22,12 @@ torchvision==0.13.0
 ```
 
 ## Training
-Step 1: execute `Amap_train.py` to get pretrained model for producing activation map 
+Step 1: run `Amap_train.py` to get pretrained model for producing activation map 
 
-Step 2: execute `train.py` to train LDCNet
+Step 2: run `train.py` to train LDCNet
 
-Step 3: execute `test.py`
-
+## Testing
+run `test.py`
 
 ## More visualization: Feature maps extracted by LDC
 ### Live images:
