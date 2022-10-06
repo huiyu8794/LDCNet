@@ -35,12 +35,12 @@ Step 3: execute `test.py`
 ![Screenshot](low_level_visualize/0001_featmap.png)
 ![Screenshot](low_level_visualize/0002_image_live.png)
 ![Screenshot](low_level_visualize/0002_featmap.png)
-### Print images:
+### Print images (grid artifacts):
 ![Screenshot](low_level_visualize/0003_image_print.png)
 ![Screenshot](low_level_visualize/0003_featmap.png)
 ![Screenshot](low_level_visualize/0004_image_print.png)
 ![Screenshot](low_level_visualize/0004_featmap.png)
-### Replay images:
+### Replay images (moiré patterns):
 ![Screenshot](low_level_visualize/0005_image_replay.png)
 ![Screenshot](low_level_visualize/0005_featmap.png)
 ![Screenshot](low_level_visualize/0006_image_replay.png)
