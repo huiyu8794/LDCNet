@@ -13,6 +13,7 @@ dataset1 = 'MSU'
 dataset2 = 'replay'
 dataset3 = 'casia'
 
+# image shape: torch.Size([3, 256, 256])
 live_data1 = np.load('/shared/domain-generalization/' + dataset1 + '_images_live.npy')
 live_data2 = np.load('/shared/domain-generalization/' + dataset2 + '_images_live.npy')
 live_data3 = np.load('/shared/domain-generalization/' + dataset3 + '_images_live.npy')
