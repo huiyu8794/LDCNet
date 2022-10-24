@@ -27,6 +27,7 @@ dataset1 = "casia"
 dataset2 = "MSU" 
 dataset3 = "replay"
 
+# image shape: torch.Size([3, 256, 256])
 live_path1 = '/shared/domain-generalization/' + dataset1 + '_images_live.npy'
 live_path2 = '/shared/domain-generalization/' + dataset2 + '_images_live.npy'
 live_path3 = '/shared/domain-generalization/' + dataset3 + '_images_live.npy'
