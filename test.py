@@ -8,6 +8,7 @@ model_path = '/shared/huiyu8794/BMVC/test_O/'
 batch_size = 40
 
 dataset = 'Oulu'
+# image shape: torch.Size([3, 256, 256])
 live_path = '/shared/domain-generalization/' + dataset + '_images_live.npy'
 spoof_path ='/shared/domain-generalization/' + dataset + '_images_spoof.npy'
 
