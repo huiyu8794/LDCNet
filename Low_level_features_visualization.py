@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 device_id = "cuda:0"
 
 dataset = 'Oulu'
+
+# image shape: torch.Size([3, 256, 256])
 live_path = '/shared/domain-generalization/' + dataset + '_images_live.npy'
 spoof_path = '/shared/domain-generalization/' + dataset + '_images_spoof.npy'
 
