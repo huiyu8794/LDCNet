@@ -7,6 +7,7 @@ Generate by `Low_level_features_visualization.py`
 
 ## Learnable Descriptive Convolution
 ![Screenshot](figure/LDC_illustration.png)
+![Screenshot](figure/formula.png)
 
 ## Network Architecture
 ![Screenshot](figure/LDCNet.png)
