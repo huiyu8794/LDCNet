@@ -206,11 +206,11 @@ for epoch in range(500):
         img1_real, live_img1_liveMap, spoof_img1_liveMap, ls_lab1_real, m_lab1_real = next(data1_real)
         img1_fake, live_img1_fakeMap, spoof_img1_fakeMap, ls_lab1_fake, m_lab1_fake = next(data1_fake)
 
-        img2_real, live_img2_liveMap, spoof_img2_liveMap, ls_lab2_real, m_lab2_real = next(data1_real)
-        img2_fake, live_img2_fakeMap, spoof_img2_fakeMap, ls_lab2_fake, m_lab2_fake = next(data1_fake)
+        img2_real, live_img2_liveMap, spoof_img2_liveMap, ls_lab2_real, m_lab2_real = next(data2_real)
+        img2_fake, live_img2_fakeMap, spoof_img2_fakeMap, ls_lab2_fake, m_lab2_fake = next(data2_fake)
 
-        img3_real, live_img3_liveMap, spoof_img3_liveMap, ls_lab3_real, m_lab3_real = next(data1_real)
-        img3_fake, live_img3_fakeMap, spoof_img3_fakeMap, ls_lab3_fake, m_lab3_fake = next(data1_fake)
+        img3_real, live_img3_liveMap, spoof_img3_liveMap, ls_lab3_real, m_lab3_real = next(data3_real)
+        img3_fake, live_img3_fakeMap, spoof_img3_fakeMap, ls_lab3_fake, m_lab3_fake = next(data3_fake)
 
         # ============ one batch collection ============ # 
 
