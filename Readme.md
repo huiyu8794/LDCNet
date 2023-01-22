@@ -52,10 +52,9 @@ run `test.py`
 If you use the LDC, please cite the paper:
 
 ```
-@inproceedings{huang2022learnable,
+@article{huang2022learnable,
   title={Learnable Descriptive Convolutional Network for Face Anti-Spoofing},
   author={Huang, Pei-Kai and Ni, Hui-Yu and Ni, Yan-Qin and Hsu, Chiou-Ting},
-  booktitle={BMVC},
   year={2022}
 }
 ```
