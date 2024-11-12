@@ -50,7 +50,7 @@ run `test.py`
 
 ## Citation
 
-If you use the LDC, please cite the paper:
+If you use the LDC, please cite the paper, thank you:
 
 ```
 @article{huang2022learnable,
